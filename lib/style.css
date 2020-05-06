@@ -76,3 +76,14 @@ body {
 	justify-content: center;
 	margin-top: 0;
 }
+
+@media only screen and (max-width: 690px) {
+	.flex {
+	  flex-direction: column;
+	  justify-content: center;
+	  padding-left: 0;
+	}
+	.flex > div {
+		margin-bottom: 10px;
+	}
+  }
